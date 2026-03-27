@@ -1,5 +1,5 @@
 name: "ntfy"
-version: "2.15.0"
+version: "1.0.0"
 slug: "ntfy"
 description: "Self-hosted notification service"
 url: "https://github.com/binwiederhier/ntfy"
