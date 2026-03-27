@@ -150,7 +150,7 @@ jobs:
     - name: Build & push
       uses: docker/build-push-action@v6
       with:
-        context: .
+        context: ./ntfy
         push: true
         platforms: linux/${{ matrix.arch.docker_name }}
         build-args: |
