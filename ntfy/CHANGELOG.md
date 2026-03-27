@@ -1,5 +1,16 @@
 # Release 1.0.0
 
+## What's Changed
+* Update changelog for release 1.0.0 by @github-actions[bot] in https://github.com/MaurusErni/hassio-ntfy-sh-addon/pull/1
+
+## New Contributors
+* @github-actions[bot] made their first contribution in https://github.com/MaurusErni/hassio-ntfy-sh-addon/pull/1
+
+**Full Changelog**: https://github.com/MaurusErni/hassio-ntfy-sh-addon/commits/1.0.0
+
+
+# Release 1.0.0
+
 **Full Changelog**: https://github.com/MaurusErni/hassio-ntfy-sh-addon/commits/1.0.0
 
 
