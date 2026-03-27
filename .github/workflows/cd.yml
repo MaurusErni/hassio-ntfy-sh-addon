@@ -75,6 +75,7 @@ jobs:
           fetch-depth: 0
 
       - name: Update CHANGELOG.md and config.yaml
+        working-directory: ntfy
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TAG: ${{ needs.create-gh-release.outputs.version }}
