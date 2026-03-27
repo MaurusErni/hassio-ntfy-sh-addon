@@ -158,5 +158,5 @@ jobs:
           BUILD_VERSION=${{ env.TAG }}
           BUILD_ARCH=${{ matrix.arch.hass_name }}
         tags: |
-          ghcr.io/MaurusErni/ntfy-ha-addon${{ matrix.arch.hass_name }}:${{ env.TAG }}
-          ghcr.io/MaurusErni/ntfy-ha-addon${{ matrix.arch.hass_name }}:latest
+          ghcr.io/mauruserni/ntfy-ha-addon${{ matrix.arch.hass_name }}:${{ env.TAG }}
+          ghcr.io/mauruserni/ntfy-ha-addon${{ matrix.arch.hass_name }}:latest
