@@ -1,3 +1,8 @@
+# Release 2.0.1
+
+**Full Changelog**: https://github.com/MaurusErni/hassio-ntfy-sh-addon/compare/v1.0.1...2.0.1
+
+
 # Release 1.0.0
 
 ## What's Changed
