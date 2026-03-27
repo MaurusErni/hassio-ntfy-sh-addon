@@ -145,7 +145,7 @@ jobs:
     - uses: docker/login-action@v3
       with:
         registry: ghcr.io
-        username: michalchecinski
+        username: MaurusErni
         password: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Build & push
@@ -158,5 +158,5 @@ jobs:
           BUILD_VERSION=${{ env.TAG }}
           BUILD_ARCH=${{ matrix.arch.hass_name }}
         tags: |
-          ghcr.io/michalchecinski/ntfy-ha-addon${{ matrix.arch.hass_name }}:${{ env.TAG }}
-          ghcr.io/michalchecinski/ntfy-ha-addon${{ matrix.arch.hass_name }}:latest
+          ghcr.io/MaurusErni/ntfy-ha-addon${{ matrix.arch.hass_name }}:${{ env.TAG }}
+          ghcr.io/MaurusErni/ntfy-ha-addon${{ matrix.arch.hass_name }}:latest
